@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+}
+
+:root {
+    --cor-primaria: #ffffff; /* Define a cor primária */
+    --cor-secundaria: #e9eaea; /* Define a cor secundária */
+    --cor-destaque: #9F0311; /* Define a cor de destaque */
+    --cor-black: #000000;
+  }
+
+@font-face {
+    font-family: 'Barcelony';
+    src: url('/CSS/FONTS/Barcelony.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('/CSS/FONTS/Gotham.ttf') format('truetype');
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+    background-color: var(--cor-secundaria);
+}
+
+#logo {
+    font-family: 'Barcelony', sans-serif;
+    color: var(--cor-destaque);
+}
+
+
+.top-menu {
+    display: flex;
+    gap: 45px;
+    margin-right: 10%;
+    font-family: 'Gotham', sans-serif;
+    
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: var(--cor-black);
+}
+
+#contato {
+    text-decoration: none;
+    color: var(--cor-black);
+    font-family: 'Gotham', sans-serif;
+}
+
+.top-menu a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--cor-destaque);
+}
