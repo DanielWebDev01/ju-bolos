@@ -35,7 +35,7 @@ body {
     display: flex;
     gap: 45px;
     margin-right: 10%;
-    font-family: 'Gotham', sans-serif;
+    font-family: 'DM Serif Display', sans-serif;
     
 }
 
@@ -47,7 +47,7 @@ body {
 #contato {
     text-decoration: none;
     color: var(--cor-black);
-    font-family: 'Gotham', sans-serif;
+    font-family: 'DM Serif Display', sans-serif;
 }
 
 .top-menu a:hover {
