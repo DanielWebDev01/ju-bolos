@@ -16,15 +16,6 @@ body {
     --cor-black: #000000;
   }
 
-@font-face {
-    font-family: 'Barcelony';
-    src: url('/CSS/FONTS/Barcelony.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Gotham';
-    src: url('/CSS/FONTS/Gotham.ttf') format('truetype');
-}
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -34,7 +25,7 @@ body {
 }
 
 #logo {
-    font-family: 'Barcelony', sans-serif;
+    font-family: 'Dancing Script', sans-serif;
     color: var(--cor-destaque);
 }
 
