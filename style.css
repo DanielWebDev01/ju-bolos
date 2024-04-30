@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-body {
-    font-size: 1rem;
-}
-
 :root {
     --cor-primaria: #ffffff; /* Define a cor primária */
     --cor-secundaria: #e9eaea; /* Define a cor secundária */
@@ -25,7 +21,7 @@ body {
 }
 
 #logo {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: 'Dancing Script', sans-serif;
     color: var(--cor-destaque);
 }
@@ -35,13 +31,13 @@ body {
     display: flex;
     gap: 45px;
     margin-right: 10%;
-    font-family: 'DM Serif Display', sans-serif;
-    
+        
 }
 
 .top-menu a {
     text-decoration: none;
     color: var(--cor-black);
+    font-family: 'DM Serif Display', sans-serif;
 }
 
 #contato {
