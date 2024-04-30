@@ -21,7 +21,7 @@
 }
 
 #logo {
-    font-size: 32px;
+    font-size: 40px;
     font-family: 'Dancing Script', sans-serif;
     color: var(--cor-destaque);
 }
@@ -35,12 +35,14 @@
 }
 
 .top-menu a {
+    font-size: 32px;
     text-decoration: none;
     color: var(--cor-black);
     font-family: 'DM Serif Display', sans-serif;
 }
 
 #contato {
+    font-size: 32px;
     text-decoration: none;
     color: var(--cor-black);
     font-family: 'DM Serif Display', sans-serif;
@@ -48,7 +50,7 @@
 
 .top-menu a:hover {
     text-decoration: underline;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 3px;
     text-underline-offset: 3px;
     text-decoration-color: var(--cor-destaque);
 }
